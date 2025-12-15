@@ -278,7 +278,7 @@ function Dashboard({ onLogout, user }) {
                 ? sensorData[sensorData.length - 1].nh3
                 : "--"}
             </p>
-            <p className="text-xs text-slate-400 mt-1">mg/L</p>
+            <p className="text-xs text-slate-400 mt-1">ppm</p>
           </div>
           <div className="bg-white rounded-2xl shadow p-4">
             <p className="text-xs font-medium text-slate-500">
