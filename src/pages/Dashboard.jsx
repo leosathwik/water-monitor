@@ -9,7 +9,7 @@ const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID;
 // Match exactly the attribute names in your Appwrite collection
 const VEHICLE_FIELD = "VehicleID";
 const NH3_FIELD = "nh3";
-const CH4_FIELD = "ch3";        // your column name is ch3
+const CH4_FIELD = "ch4";        // your column name is ch3
 const TIME_FIELD = "$createdAt"; // using Appwrite system field
 
 // Admin emails – ONLY these users will see the settings icon
@@ -325,12 +325,12 @@ function Dashboard({ onLogout, user }) {
                 data={sensorData}
                 dataKey="nh3"
                 title="NH₃ over time"
-                yLabel="NH₃ concentration (mg/L)"
+                yLabel="NH₃ concentration (ppm)"
               />
               <SensorChart
                 data={sensorData}
-                dataKey="ch3"
-                title="CH₄ (ch3) over time"
+                dataKey="ch4"
+                title="CH₄ over time"
                 yLabel="CH₄ concentration (ppm)"
               />
             </>
