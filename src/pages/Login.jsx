@@ -90,7 +90,7 @@ function Login({ onLogin }) {
         </form>
 
         <p className="text-xs text-center text-slate-400">
-          Powered by CtoSKYAI Pvt Ltd
+          Supported by TiHAN IIT-Hyderabad
         </p>
       </div>
     </div>

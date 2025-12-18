@@ -329,7 +329,7 @@ function Dashboard({ onLogout, user }) {
               />
               <SensorChart
                 data={sensorData}
-                dataKey="ch4"
+                dataKey="ch3"
                 title="CH₄ over time"
                 yLabel="CH₄ concentration (ppm)"
               />
